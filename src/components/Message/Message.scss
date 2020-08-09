@@ -1,0 +1,26 @@
+.message {
+    width: 100%;
+    &__list {
+        width: 100%;
+        max-width: 36ch;
+        &_card_user {
+            background-color: #09f;
+            color: white;
+            border-radius: 25px;
+            p {
+                color: white;
+            }
+        }
+        &_card_guest {
+            background-color: #f5f5f5;
+            border-radius: 25px;
+            color: black;
+            p {
+                color: black;
+            }
+        }
+    }
+    &__list_user {
+        margin-left: auto !important;
+    }
+}
